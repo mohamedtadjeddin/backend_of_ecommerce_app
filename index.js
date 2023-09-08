@@ -6,7 +6,7 @@ const app=express();
 const mongoose=require('mongoose');
 const bodyParser=require('body-parser');
 const router=require('./route');
-const uri="mongodb+srv://tajou003:hatlijat@cluster0.jmwskiv.mongodb.net/?retryWrites=true&w=majority";
+const uri="mongodb+srv://tajou003:***@cluster0.jmwskiv.mongodb.net/?retryWrites=true&w=majority";
 app.use(bodyParser.json())
 app.use(router)
 mongoose.connect(uri);
